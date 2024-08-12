@@ -11,6 +11,6 @@ class SubClass extends SuperClass{
 		System.out.println("final 메소드는 오버라이딩 불가");
 	}*/
 	public static void main(String[] args) {
-		System.out.println("!@#$%^&*()");
+		System.out.println("\"C:\\Download\\hello.cpp\"");
 	}
 }
