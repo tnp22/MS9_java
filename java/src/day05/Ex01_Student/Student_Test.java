@@ -1,4 +1,4 @@
-package day05;
+package day05.Ex01_Student;
 
 public class Student_Test {
 	public static void main(String[] args) {

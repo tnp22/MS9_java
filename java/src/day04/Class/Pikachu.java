@@ -24,4 +24,11 @@ public class Pikachu {
 		return "전광석화";
 	}
 
+	//toString()
+	//반환값
+	@Override
+	public String toString() {
+		return "Pikachu [energy=" + energy + ", type=" + type + "]";
+	}
+
 }
