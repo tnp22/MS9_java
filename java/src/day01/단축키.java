@@ -26,3 +26,5 @@ public class 단축키 {
 //2. [preferences] (설정)
 //3. [java] > [Editor] > [Template]
 //4. 자동완성 키워드 작성
+
+//깃 - 컨트롤 쉬프트 3
