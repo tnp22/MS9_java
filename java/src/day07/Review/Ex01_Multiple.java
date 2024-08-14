@@ -13,5 +13,6 @@ public class Ex01_Multiple {
 		else {
 			System.out.println("3의 배수X");			
 		}
+		sc.close();
 	}
 }

@@ -15,7 +15,7 @@ public class Ex06 {
 				for (int j = 0; j < i; j++) {
 					if(a[j]==a[i]) {
 						i--;
-						continue;
+						break;
 					}
 				}
 			}
