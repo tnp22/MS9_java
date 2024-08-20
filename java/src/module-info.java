@@ -1,3 +1,4 @@
-module java {
-	requires static lombok;
+
+module Java {
+	requires lombok;
 }

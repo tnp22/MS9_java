@@ -15,6 +15,7 @@ public class Ex02_ThreeSixNine {
 			for (int j = 0; j < result; j++) {
 				System.out.print("*");
 			}
+			//System.out.print("("+gi+")");
 		}
 		else {
 			System.out.print(gi);
