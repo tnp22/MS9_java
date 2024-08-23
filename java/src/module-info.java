@@ -1,4 +1,0 @@
-
-module Java {
-	requires lombok;
-}
