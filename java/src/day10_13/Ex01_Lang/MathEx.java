@@ -1,4 +1,4 @@
-package day10.Ex01_Lang;
+package day10_13.Ex01_Lang;
 
 public class MathEx {
 	private static void swap(int a[], int b, int c) {
@@ -52,12 +52,13 @@ public class MathEx {
 		
 		//정렬
 		for (int i = 0; i < lotto.length; i++) {
-			
-			for (int j = 0; j < i; j++) {
-				if(lotto[i]<lotto[j]) {
-					swap(lotto,i,j);
+			int min=i;
+			for (int j = i+1; j < lotto.length; j++) {
+				if(lotto[min]>lotto[j]) {
+					min=j;
 				}
 			}
+			swap(lotto,min,i);
 			for (int i0 : lotto) {
 				System.out.print(i0+" ");
 			}
