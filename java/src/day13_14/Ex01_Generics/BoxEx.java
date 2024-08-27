@@ -1,4 +1,4 @@
-package day13.Ex01_Generics;
+package day13_14.Ex01_Generics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,5 +38,9 @@ public class BoxEx {
 		}
 		System.out.println();
 		List<Number> a =new ArrayList<>(); //제네릭
+		
+		Box<?> aBox = new Box<>();
+		//aBox.setT(new Pikachu());
+		
 	}
 }

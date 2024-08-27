@@ -1,4 +1,4 @@
-package day13.Ex02_Colletion;
+package day13_14.Ex02_Colletion;
 
 import java.util.LinkedList;
 

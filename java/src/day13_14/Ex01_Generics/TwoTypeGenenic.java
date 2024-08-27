@@ -1,4 +1,4 @@
-package day13.Ex01_Generics;
+package day13_14.Ex01_Generics;
 
 // 제네릭 기법으로 타입 매개변수 2개 지정
 class keyValue<K, V> {

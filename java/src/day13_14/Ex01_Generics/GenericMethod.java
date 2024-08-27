@@ -1,4 +1,4 @@
-package day13.Ex01_Generics;
+package day13_14.Ex01_Generics;
 
 class GenericTest {
 	// 제네릭 메소드
