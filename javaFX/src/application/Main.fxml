@@ -65,12 +65,12 @@
                <children>
                   <ImageView fitHeight="97.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../Users/TJ-BU-706-P22/Desktop/스트림.PNG" />
+                        <Image url="@earth.PNG" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="37.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../Users/TJ-BU-706-P22/Desktop/최소.png" />
+                        <Image url="@../../../../../Desktop/스트림.PNG" />
                      </image>
                   </ImageView>
                </children></HBox>
