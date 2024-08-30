@@ -4,6 +4,7 @@ package application;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -19,9 +20,9 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		//this.primaryStage=primaryStage;
 		try {
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			//BorderPane root = new BorderPane();
+			//Scene scene = new Scene(root,400,400);
+			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			//화면 A 생성
 			Button switchButton = new Button("B 화면으로 이동");
 			// 버튼 클릭 시, 화면 B로 이동
@@ -35,6 +36,13 @@ public class Main extends Application {
 			backButton.setOnAction(e->primaryStage.setScene(sceneA));
 			StackPane layoutB = new StackPane(backButton);
 			sceneB = new Scene(layoutB,300,200);
+			
+			// 프로그램 아이콘 지정
+			
+			// 프로그램 아이콘 지정 src폴더에 저장
+			Image icon = new Image("icon.png");
+			primaryStage.getIcons().add(icon);
+			
 			
 			// 시작화면 Scene 설정
 			primaryStage.setScene(sceneA);					//화면A로 시작
