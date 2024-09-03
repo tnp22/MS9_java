@@ -34,7 +34,7 @@ public class MainController {
 	// 랜덤 객체
 	private static final Random RANDOM = new Random();
 	
-	// 0.15초마다 동작하는 타임라인 객체
+	// 0.015초마다 동작하는 타임라인 객체
 	private Timeline timeline = null;
 	// 3초 뒤에 동작한느 타임라인 객체
 	private Timeline stop = null;
@@ -78,7 +78,7 @@ public class MainController {
 	@FXML
 	void buttenClick(ActionEvent event) {
 		// 애니메이션 적용
-		// * 0.05 초 마다 메뉴 바꾸다가 3초가 되면 딱 멈춰서도록 애니메이션 적용
+		// * 0.015 초 마다 메뉴 바꾸다가 3초가 되면 딱 멈춰서도록 애니메이션 적용
 		timeline.stop();
 		stop.stop();
 		// 애니메이션 시작
